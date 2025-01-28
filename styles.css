@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(8deg);
 }
 .tag {
   background-color: #efefef;
@@ -98,8 +98,26 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+.card2 {
+  max-width: 700px;
+  margin: 0 auto;
+
+}
 .card:hover {
   border-color: #ff99ff;
+}
+
+.cardcontacts {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+ul.contacts {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
 
 ul.skills {
@@ -117,7 +135,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #437def;
+  background: #6243ef;
 }
 
 footer {
@@ -165,6 +183,24 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.cvbutton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: purple;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 30px;
+  /* Corrected padding values */
+  margin-top: 150px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.cvbutton:hover {
+background-color: white;
 }
 
 /* Styles for larger screens */
